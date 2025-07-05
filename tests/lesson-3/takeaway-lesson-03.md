@@ -49,7 +49,11 @@ object : Đối tượng dùng để lưu trữ tập hợp các giá trị vào
 ## Function :
 Function : hàm là đoạn code được đặt tên và có thể tái sử dụng được, thực hiện 1 nhiệm vụ cụ thể hoặc tính toán cụ thể
 1. Khai báo : function <nameFunction>() {//code}
-2. sử dụng : <nameFunction>();
+2. sử dụng : 
+- gọi trực tiếp <nameFunction>(); gọi trực tiếp
+-  gọi qua biến : vd const result = getMax(1, 15) =>> gọi trước lưu vào biến, sau đó gọi console in, gàn giá trị biến vào(); console.log(result);
+
+
 ## Parameter
 Truyền tham số vào hàm function > khai báo tham số cần dùng ở hàm sử dụng ()
-
+## Return value 
